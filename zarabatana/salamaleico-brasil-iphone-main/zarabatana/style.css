@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap&#39;');
+
+:root{
+--cor-da-letra: white;
+--cor-de-fundo:#000000;
+--fundo-senha:#1471b8;
+--fundo-texto:#004ca3;
+--borda:#0075FF;
+--fonte:"Sevillana", cursive;
+}
+
+body{
+color: var(--cor-da-letra);
+background-color: var(--cor-de-fundo);
+background-color: var(--fundo-senha);
+font-family: var(--fonte)
+
+}
+
+.conteudo{
+
+text-align: center;
+font-size: 35px;
+}
+
+.img{
+
+width: 80px;
+}
+
+.titulo-principal{
+
+font-size: 50px;
+font-family: var(--fonte);
+color: black;
+
+}
+
+.titulo-secundario{
+
+font-size: 23px;
+
+
+}
+.conteudo-titulo{
+    text-align: center;
+    margin-top:80px;
+}
+.conteudo-senha{
+    margin-top:150px;
+    background:var(--fundo-senha);
+    padding:200px;
+    border-bottom: 60px solid var(--borda);
+}
