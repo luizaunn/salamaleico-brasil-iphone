@@ -91,3 +91,9 @@ body{
     Width:50%;
     margin:0 auto;
 }
+
+    .parametro-coluna-senha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
